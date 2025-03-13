@@ -38,7 +38,7 @@ public class LoginPage extends BaseClass {
         String actualGreeting = userGreeting.getText();
         String expectedGreeting = "Hello, "+prop.getProperty("userFirstName");
         Assert.assertEquals(actualGreeting, expectedGreeting, "Greeting Not matched");
-        System.out.println("Successfully Login");
+        System.out.println("Successfully Login***");
         return new HomePage();
     }
     public HomePage invalidLogin(String userId, String password){
