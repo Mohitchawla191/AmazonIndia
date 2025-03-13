@@ -5,5 +5,6 @@ public class TestClass1 {
         System.out.println("HP is coding well");
         int a = 5;
         System.out.println(a*2);
+        System.out.println("resolved");
     }
 }
