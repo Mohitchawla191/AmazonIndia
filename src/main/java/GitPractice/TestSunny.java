@@ -11,7 +11,7 @@ public class TestSunny extends BaseClass {
         landingPage = new LandingPage();
         landingPage.launchApp();
         int a =5;
-        String Chawla = "yoo";
+        String Chawla = "chawla";
     }
     public static void testMethod2(){
         landingPage = new LandingPage();
