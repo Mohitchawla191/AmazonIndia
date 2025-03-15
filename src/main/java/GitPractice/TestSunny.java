@@ -10,8 +10,7 @@ public class TestSunny extends BaseClass {
     public static void testMethod1(){
         landingPage = new LandingPage();
         landingPage.launchApp();
-
-
+        int a =2;
     }
     public static void testMethod2(){
         landingPage = new LandingPage();
