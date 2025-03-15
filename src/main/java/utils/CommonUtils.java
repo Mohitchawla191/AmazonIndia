@@ -27,6 +27,5 @@ public class CommonUtils extends BaseClass {
         List<String> list = new ArrayList(windowHandles);
         String windowId = list.get(windowNo);
         getDriver().switchTo().window(windowId);
-
     }
 }

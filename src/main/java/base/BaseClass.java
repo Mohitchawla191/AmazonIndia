@@ -30,7 +30,7 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    public void launchApp() {
+    public static void launchApp() {
         String browserName = System.getProperty("browser", "chrome");
         System.out.println("Browser name is " + browserName);
 
@@ -52,7 +52,7 @@ public class BaseClass {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public static void tearDown() {
         if (getDriver() != null) {
             getDriver().quit();
             driver.remove(); // Prevent memory leaks

@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 
 public class MyTransformer implements IAnnotationTransformer {
     public void transform(ITestAnnotation annotation, Class testClass, Constructor constructor, Method testMethod){
-        annotation.setRetryAnalyzer(RetryAnalyzer.class);
+      annotation.setRetryAnalyzer(RetryAnalyzer.class);
     }
 
 }

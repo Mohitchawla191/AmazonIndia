@@ -20,5 +20,4 @@ public class HomePage extends BaseClass {
         searchButton.click();
         return new SearchResultPage();
     }
-
 }
