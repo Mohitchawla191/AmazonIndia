@@ -12,7 +12,11 @@ public class TestSunny extends BaseClass {
         landingPage.launchApp();
 
         int a =5;
+
         int x = 11;
+
+
+        String Chawla = "chawla";
 
     }
     public static void testMethod2(){
