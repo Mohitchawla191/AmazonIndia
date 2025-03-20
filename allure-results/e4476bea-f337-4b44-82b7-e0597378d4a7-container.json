@@ -1,0 +1,1 @@
+{"uuid":"e4476bea-f337-4b44-82b7-e0597378d4a7","name":"base.BaseClass.launchApp","children":["e99e91c1-e690-4075-a7d2-3d92c57f672e"],"description":"","befores":[{"name":"launchApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742488693196,"stop":1742488701578}],"afters":[],"start":1742488693196,"stop":1742488701578}
