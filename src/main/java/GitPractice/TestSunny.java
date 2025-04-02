@@ -28,5 +28,4 @@ public class TestSunny extends BaseClass {
         int b=3;
         int c= a+b;
     }
-
 }
