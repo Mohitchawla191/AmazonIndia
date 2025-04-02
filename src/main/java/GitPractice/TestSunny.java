@@ -23,5 +23,4 @@ public class TestSunny extends BaseClass {
         landingPage = new LandingPage();
         landingPage.loadConfig();
     }
-
 }
