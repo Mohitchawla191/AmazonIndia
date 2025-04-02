@@ -23,4 +23,9 @@ public class TestSunny extends BaseClass {
         landingPage = new LandingPage();
         landingPage.loadConfig();
     }
+    public static void calculation(){
+        int a =2;
+        int b=3;
+        int c= a+b;
+    }
 }
